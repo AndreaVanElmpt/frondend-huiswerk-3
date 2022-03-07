@@ -79,6 +79,21 @@ p {
     padding: 50px;
     position: relative;
 
+}
+
+.work::before {
+    content: "work";
+    text-align: center;
+    font-weight: bold;
+    font-size: 260px;
+    color: #FFFFFF;
+
+    display: block;
+    position: absolute;
+    height: 400px;
+    top: 0;
+    left:50%; transform: translateX(-50%);
+    z-index: -1;
 
 }
 .work >article {
@@ -87,6 +102,8 @@ p {
     flex-grow: 3;
     flex-shrink: 1;
     padding: 20px;
+    background-color: #F3F6F9;
+    z-index: -2;
     /*position:relative;*/
     /*width:40%;*/
     /*padding:0 2rem;*/
@@ -94,12 +111,28 @@ p {
 }
 
 
-#sec {
+.intro{
     color: #5722CD;
     display: flex;
     margin-top: 60px;
     justify-content: center;
+    padding: 100px;
+    position: relative;
+}
 
+.intro::before {
+    content: "hello";
+    text-align: center;
+    font-weight: bold;
+    font-size: 260px;
+    color: #F2F0FF;
+
+    display: block;
+    position: absolute;
+    height: 400px;
+    top: 0;
+    left:50%; transform: translateX(-50%);
+    z-index: -1;
 
 }
 
