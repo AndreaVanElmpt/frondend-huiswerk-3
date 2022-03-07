@@ -40,7 +40,7 @@ p {
 .line {
     border-bottom: 30px solid white;
     border-right: 100vw solid transparent;z
-position: absolute;
+    position: absolute;
     bottom: 0;
     left: 0;
 
@@ -162,9 +162,9 @@ span{
 
 .text-web-design h2{
 
-    width: 70%;
+    width: 60%;
     font-weight: 999;
-    font-size: 30px;
+    font-size: 15px;
     font-family: Merriweather, sans-serif;
     color: #5722CD;
     padding: 0 20px 20px 20px;
@@ -275,7 +275,12 @@ nav a:hover {
 
 
 /*--------------------  formulier -----------------------------*/
+.section{
+    width: 100%;
+    background-color: #4845E4;
 
+    border: solid orangered;
+}
 .formulier{
     display: flex;
     justify-content: center;
@@ -283,8 +288,8 @@ nav a:hover {
 
 }
 form {
-    width: 600px;
-    height: 300px;
+    /*width: 800px;*/
+    /*height: 500px;*/
     background-color: #4845E4;
     display: flex;
     flex-direction: column;
